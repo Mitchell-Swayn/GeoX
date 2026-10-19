@@ -1,7 +1,5 @@
 # GeoX
 
-<img width="479" height="136" alt="image" src="https://github.com/user-attachments/assets/b46fb5b1-040c-4da7-820c-e3ac256cb5e7" />
-
 GeoX is a Manifest V3 browser extension for Helium and Chrome. It shows a country flag or region emoji beside account names on X, based on the "Account based in" location that X reports for each account.
 
 Badges appear beside:
@@ -9,6 +7,8 @@ Badges appear beside:
 - post authors
 - profile names
 - suggested accounts, such as "You might like" and "Who to follow"
+
+<img width="479" height="136" alt="image" src="https://github.com/user-attachments/assets/b46fb5b1-040c-4da7-820c-e3ac256cb5e7" />
 
 GeoX never guesses a location from names, bios or posts. If X does not report a location, no badge is shown.
 
