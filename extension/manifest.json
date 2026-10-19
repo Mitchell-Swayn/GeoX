@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "GeoX \u2014 Country Flags for X",
+  "version": "1.2.0",
+  "permissions": [
+    "storage"
+  ],
+  "description": "Shows X's reported account location as a flag or continent emoji beside names on posts and profiles.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://x.com/*",
+        "https://twitter.com/*"
+      ],
+      "js": [
+        "cache.js"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "https://x.com/*",
+        "https://twitter.com/*"
+      ],
+      "js": [
+        "countries.js",
+        "content.js"
+      ],
+      "css": [
+        "flags.css"
+      ],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

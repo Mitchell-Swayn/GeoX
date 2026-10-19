@@ -1,0 +1,16 @@
+{
+  "name": "geox",
+  "private": true,
+  "scripts": {
+    "test": "node --test test/*.test.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0"
+  },
+  "version": "1.2.0",
+  "description": "Country flags and region emoji for X account locations.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
